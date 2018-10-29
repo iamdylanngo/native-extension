@@ -1,6 +1,6 @@
 {
   "name": "native-extension",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": {
     "name": "Tinh Ngo",
@@ -14,19 +14,6 @@
     "components"
   ],
   "main": "index.js",
-  "files": [
-    "index.js",
-    "index.d.ts",
-    "components/header.js",
-    "components/header.d.ts",
-    "components/switch-component.js",
-    "components/switch-component..d.ts",
-    "components/tabbar.js",
-    "components/tabbar.d.ts"
-  ],
-  "peerDependencies": {
-    "react-native": ">=0.29"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jundat95/native-extension.git"
