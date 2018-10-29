@@ -1,6 +1,6 @@
 {
   "name": "native-extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": {
     "name": "Tinh Ngo",
@@ -18,8 +18,11 @@
     "index.js",
     "index.d.ts",
     "components/header.js",
-    "components/switch.js",
-    "components/tabbar.js"
+    "components/header.d.ts",
+    "components/switch-component.js",
+    "components/switch-component..d.ts",
+    "components/tabbar.js",
+    "components/tabbar.d.ts"
   ],
   "peerDependencies": {
     "react-native": ">=0.29"
