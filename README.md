@@ -1,4 +1,5 @@
-# [Native Extension](https://github.com/jundat95/native-extension.git) &middot; [![Build status](https://ci.appveyor.com/api/projects/status/owc7umght952d172?svg=true)](https://ci.appveyor.com/project/jundat95/native-extension) [![npm version](https://badge.fury.io/js/native-extension.svg)](https://badge.fury.io/js/native-extension) [![Rn-Redux Welcome](https://img.shields.io/badge/Jundat95-NativeExtension-brightgreen.svg)](CONTRIBUTING.md#pull-requests) [![npm downloads](https://img.shields.io/npm/dt/native-extension.svg)](https://npm-stat.com/charts.html?package=native-extension&from=2016-04-01&to=2018-11-30)
+# [Native Extension](https://github.com/jundat95/native-extension.git)  &middot;   [![Build status](https://ci.appveyor.com/api/projects/status/owc7umght952d172?svg=true)](https://ci.appveyor.com/project/jundat95/native-extension)  [![npm version](https://badge.fury.io/js/native-extension.svg)](https://badge.fury.io/js/native-extension)  [![GitHub license](https://img.shields.io/github/license/jundat95/native-extension.svg)](https://github.com/jundat95/native-extension/blob/master/LICENSE)  [![npm downloads](https://img.shields.io/npm/dt/native-extension.svg)](https://npm-stat.com/charts.html?package=native-extension&from=2018-10-29&to=2018-11-30)  
+
 
 NativeExtension is open source framework. Essential cross-platform UI components for React Native
 
