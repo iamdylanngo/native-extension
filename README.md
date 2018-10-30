@@ -3,6 +3,9 @@
 
 NativeExtension is open source framework. Essential cross-platform UI components for React Native
 
+*Here is direct link to npm package* [link](https://www.npmjs.com/package/native-extension)
+
+*Here is direct link to github* [link](https://www.npmjs.com/package/native-extension)
 
 # Components
 
