@@ -5,6 +5,8 @@ NativeExtension is open source framework. Essential cross-platform UI components
 
 *Here is direct link to npm package* [link](https://www.npmjs.com/package/native-extension)
 
+*Here is direct link to yarn package* [link](https://yarnpkg.com/en/package/native-extension)
+
 *Here is direct link to github* [link](https://www.npmjs.com/package/native-extension)
 
 # Components
@@ -36,40 +38,30 @@ npm install native-extension --save
 ```javascript
 import { Header } from 'native-extension';
 
-const ComponentLeft = () => {
-  return(
-    <View style={{ flex: 1, alignItems: 'flex-start'}} >
-       <TouchableOpacity style={ {justifyContent:'center', flexDirection: 'row'}}>
-        <Image 
-          source={require('./img/ic_back.png')}
-          style={{ resizeMode: 'contain', width: 20, height: 20, alignSelf: 'center' }}
+const ComponentLeft = () =>
+    <View style={{ flex: 1, alignItems: 'flex-start' }} >
+        <Image
+            source={require('../../assets/images/ic_search.png')}
+            style={{ resizeMode: 'contain', width: 25, height: 25, marginLeft: 10, alignSelf: 'flex-start' }}
         />
-        <Text style={{ color: 'white', }}>Back Home</Text>
-      </TouchableOpacity>
-    </View>
-  );
-};
- 
-const ComponentCenter = () => {
-  return(
-    <View style={{ flex: 1, }}>
-       <Image
-        source={require('./img/ic_logo.png')}
-        style={{resizeMode: 'contain', width: 200, height: 35, alignSelf: 'center' }}
-      />
-    </View>
-  );
-};
- 
-const ComponentRight = () => {
-  return(
-    <View style={{ flex: 1, alignItems: 'flex-end', }}>
-      <TouchableOpacity>
-        <Text style={{ color: 'white', }}> Right </Text>
-      </TouchableOpacity>
-    </View>
-  );
-};
+    </View>;
+
+
+const ComponentCenter = () =>
+    <View style={{ flex: 1 }}>
+        <Image
+            source={require('../../assets/images/ic_google.png')}
+            style={{ resizeMode: 'contain', width: 200, height: 35, alignSelf: 'center' }}
+        />
+    </View>;
+
+const ComponentRight = () =>
+    <View style={{ flex: 1 }}>
+        <Image
+            source={require('../../assets/images/ic_profile.png')}
+            style={{ resizeMode: 'contain', width: 35, height: 35, marginRight: 10, alignSelf: 'flex-end' }}
+        />
+    </View>;
  
 class App extends Component {
   render() {
