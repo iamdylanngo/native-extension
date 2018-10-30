@@ -15,3 +15,15 @@ React Native Extension Changelog
 
 
 **Merged pull requests:**
+
+
+## [v0.0.4](https://github.com/jundat95/native-extension/releases/tag/v0.0.4) (2018/10/30)
+
+**Implemented enhancements:**
+
+
+**Fixed bug:**
+
+- Fix max with header
+
+**Merged pull requests:**
