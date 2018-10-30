@@ -39,3 +39,16 @@ React Native Extension Changelog
 - Fix render in header
 
 **Merged pull requests:**
+
+
+## [v0.1.2](https://github.com/jundat95/native-extension/releases/tag/v0.1.2) (2018/10/31)
+
+**Implemented enhancements:**
+
+- Add StarRating Component
+
+**Fixed bug:**
+
+
+
+**Merged pull requests:**

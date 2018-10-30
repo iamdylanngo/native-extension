@@ -13,6 +13,7 @@ NativeExtension is open source framework. Essential cross-platform UI components
 
 1. [Header](#1-header)
 2. [Switch](#2-switch)
+3. [StarRating](#3-starrating)
 
 # Getting Started
 
@@ -26,9 +27,9 @@ npm install native-extension --save
 
 # Compatibility Versions
 
-|     NativeExtension      |      React Native        |
-|--------------------------|--------------------------|
-| v0.0.1   |   v0.57    |
+| NativeExtension | React Native |
+| --------------- | ------------ |
+| v0.0.1          | v0.57        |
 
 
 # Using
@@ -93,6 +94,33 @@ import { Switch } from 'native-extension';
     activeText={`Active Text`}
     inActiveText={`InActive Text`}
     onValueChange={(value: any) => console.log(value)}
+/>
+
+```
+
+## 3. StarRating
+
+```javascript
+import { StarRating } from 'native-extension';
+
+<StarRating
+    max={5}
+    initial={5}
+    onChange={(rating: number) => console.log(rating)}
+    selectedStar={require('../../../assets/images/icon_star.png')}
+    unselectedStar={require('../../../assets/images/star_unfill.png')}
+    config={{
+        easing: Easing.inOut(Easing.ease),
+        duration: 350,
+    }}
+    stagger={50}
+    maxScale={1.6}
+    starStyle={{
+        width: 11,
+        height: 11,
+        margin: 1,
+    }}
+    editable={false}
 />
 
 ```
