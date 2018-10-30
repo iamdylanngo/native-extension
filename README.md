@@ -76,9 +76,9 @@ class App extends Component {
     return (
       <View style={styles.container}>
         <Header 
-          componentLeft     = { () =>  <ComponentLeft />   }
-          componentCenter   = { () =>  <ComponentCenter /> }
-          componentRight    = { () =>  <ComponentRight />  }
+          componentLeft     = { ComponentLeft   }
+          componentCenter   = { ComponentCenter }
+          componentRight    = { ComponentRight  }
           navigationBarStyle= {{ backgroundColor: '#215e79' }}
           statusBarStyle    = {{ barStyle: 'light-content', backgroundColor: '#215e79' }}
         />

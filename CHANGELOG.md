@@ -27,3 +27,15 @@ React Native Extension Changelog
 - Fix max with header
 
 **Merged pull requests:**
+
+
+## [v0.0.9](https://github.com/jundat95/native-extension/releases/tag/v0.0.9) (2018/10/30)
+
+**Implemented enhancements:**
+
+
+**Fixed bug:**
+
+- Fix render in header
+
+**Merged pull requests:**

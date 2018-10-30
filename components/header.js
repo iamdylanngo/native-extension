@@ -16,9 +16,9 @@ class Header extends React.Component {
             styles.naviagtionBar,
             this.props.navigationBarStyle,
         ]}>
-          {this.props.componentLeft()}
-          {this.props.componentCenter()}
-          {this.props.componentRight()}
+          <this.props.componentLeft />
+          <this.props.componentCenter />
+          <this.props.componentRight />
         </react_native_1.View>
       </react_native_1.View>);
     }
