@@ -39,7 +39,9 @@ exports.default = Header;
 const StatusBar_Height = react_native_1.Platform.OS === 'ios' ? 20 : 0;
 const AppBar_Height = react_native_1.Platform.OS === 'ios' ? 44 : 56;
 const styles = react_native_1.StyleSheet.create({
-    container: {},
+    container: {
+        width: '100%',
+    },
     statusBar: {
         height: StatusBar_Height,
     },
